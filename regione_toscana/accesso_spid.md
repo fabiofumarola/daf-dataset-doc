@@ -2,13 +2,15 @@
 
 ## Descrizione del dataset
 
-
+**Tipo di dataset:** standard
 
 **Tipo di flusso:** batch
 
 **Tipo di file:** CSV
 
 **Scheda:** 
+
+**Modalità di ingestion su DAF:** scarico su SFTP; ognuno contiene i dati relativi all'ultimo periodo temporale (append)
 
 
 ## Elementi
