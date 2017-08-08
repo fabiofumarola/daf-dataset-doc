@@ -1,14 +1,15 @@
 # Ministero Infrastrutture e Trasporti: Patenti
 
 ## Descrizione del dataset
+Il dataset contiene l'elenco delle patenti di guida, ossia delle autorizzazioni amministrative alla guida di autoveicoli e motoveicoli, provenienti dall'archivio nazionale abilitati alla guida su strada gestito dalla Motorizzazione.
 
-**Tipo di dataset:** 
+**Tipo di dataset:** standard/ordinary?
 
 **Tipo di flusso:** batch
 
 **Tipo di file:** CSV
 
-**Scheda:** 
+**Scheda:** anche se il tracciato è diverso, è possibile far riferimento alla scheda degli open data relativo alle patenti attive http://dati.mit.gov.it/catalog/dataset/patenti
 
 **Modalità di ingestion su DAF:** scarico su SFTP
 

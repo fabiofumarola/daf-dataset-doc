@@ -1,14 +1,15 @@
 # Ministero Infrastrutture e Trasporti: Veicoli
 
 ## Descrizione del dataset
+Questo dataset contiene il parco circolante dei veicoli su strada (categorie Autoveicoli e Motoveicoli) estratto dall'archivio nazionale dei veicoli gestito dalla Motorizzazione.
 
-**Tipo di dataset:** 
+**Tipo di dataset:** standard/ordinary?
 
 **Tipo di flusso:** batch
 
 **Tipo di file:** CSV
 
-**Scheda:** 
+**Scheda:** anche se il tracciato è diverso, è possibile far riferimento alla scheda degli open data http://dati.mit.gov.it/catalog/dataset/parco-circolante-dei-veicoli
 
 **Modalità di ingestion su DAF:** scarico su SFTP
 
