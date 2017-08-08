@@ -19,7 +19,7 @@
 id
 
 ### name
-nome del parcheggio
+nome del parcheggio (vedi [info_parcheggi](info_parcheggi.md))
 
 ### free_spot 
 posti liberi del parcheggio
