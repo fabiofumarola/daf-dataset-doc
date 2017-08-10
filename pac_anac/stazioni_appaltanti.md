@@ -10,7 +10,7 @@
 
 **Tipo di file:** CSV
 
-**Scheda:** [struttura data lake](ANAC_UPSI_StrutturaDataLakeANAC_V1.pdf)
+**Scheda:** [struttura data lake](resources/ANAC_UPSI_StrutturaDataLakeANAC_V1.pdf)
 
 **Modalità di ingestion su DAF:** scarico su SFTP
 
