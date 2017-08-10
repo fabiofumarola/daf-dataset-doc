@@ -15,30 +15,17 @@
 
 ## Elementi
 
-### parkName
-Nome parcheggio
-
-### address
-Indirizzo del parcheggio
-
-### city 
-Città
-
-### country
-Nazione
-
-### zipCode
-Codice postale
-
-### latitude
-
-### longitude
-
-### phoneNumbers
-Array di coppie <*phoneName*, *number*>
-
-### baseInfos
-Array di <*infoName*, *value*>
+| Nome | Tipo   | Descrizione                     |
+|------|--------|---------------------------------|
+|parkName|string|Nome parcheggio|
+|address|string|Indirizzo del parcheggio
+|city|string|Città|
+|country|string|Nazione
+|zipCode|string|Codice postale
+|latitude
+|longitude
+|phoneNumbers|Array di <*phoneName*, *number*>
+|baseInfos|Array di <*infoName*, *value*>
 
 ## Esempio del flusso
 

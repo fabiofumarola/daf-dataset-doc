@@ -10,19 +10,16 @@
 
 **Scheda:** http://opendata.comune.fi.it/mobilita_sicurezza/dataset_0372.html
 
-**Modalità di ingestion su DAF:** scarico su SFTP
+**Modalità di ingestion su DAF:** scarico su SFTP ogni minuto
 
 
 ## Elementi
 
-### id
-id
-
-### name
-nome del parcheggio (vedi [info_parcheggi](info_parcheggi.md))
-
-### free_spot 
-posti liberi del parcheggio
+| Nome | Tipo   | Descrizione                     |
+|------|--------|---------------------------------|
+|id||id
+|name||nome del parcheggio (vedi [info_parcheggi](info_parcheggi.md))
+|free_spot||posti liberi del parcheggio
 
 
 ## Esempio del flusso
