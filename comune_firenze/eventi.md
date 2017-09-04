@@ -1,4 +1,4 @@
-# Comune Firenze: Musei
+# Comune Firenze: Eventi
 
 ## Descrizione del dataset
 
