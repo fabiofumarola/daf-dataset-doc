@@ -14,4 +14,5 @@ Vedi anche: https://docs.google.com/spreadsheets/d/1nNsePzia1C0EuuauqII3JC1YHKIg
 - Comuni
     - [Firenze](comune_firenze)
     - [Milano](comune_milano)
+    - [Roma](comune_roma)
     - [Torino](comune_torino)
