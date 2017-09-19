@@ -16,31 +16,31 @@
 ## Elementi
 
 ### id
-id identificativo unico dell'evento (per permette di distinguere duplicat o effettuare update)
+id identificativo unico dell'evento (per permette di distinguere duplicati o effettuare update)
 
 ### timestamp
-momento dell'accesso (spesso in numero di millisecondi UNIX like) )
+momento dell'accesso (spesso in numero di millisecondi UNIX like)
 
 ### anno_nascita 
 anno di nascita dell'utente (solo le ultime due cifre)
 
 ### genere
-Genere gender
+Genere M/F
 
 ### tipo_credenziale
 tipo di credenziale utilizzata 
 
 ### risorsa
-risorsa acceduta
+URL della risorsa acceduta
 
 ### cod_nazione 
 nazone da cui è stato effettuato l'accesso 
 
 ### nome_nazione
-codice  iso nazione countryName 
+codice iso nazione 
 
 ### cod_provincia
-suddivisione/provincia codice iso
+codice iso suddivisione/provincia
 
 ### nome_provincia
 suddivisione/provincia 
@@ -49,8 +49,10 @@ suddivisione/provincia
 nome della città
 
 ### latitude 
+latitudine
 
 ### longitude
+longitudine
 
 ### loc_accuration
 LocationAccuracyRadius espressa in chilometri 
