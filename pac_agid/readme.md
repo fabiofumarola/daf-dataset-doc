@@ -1,6 +1,6 @@
 ## Dataset relativi ad AGID
 
-Indice delle pubbliche amministrazioni
+Indice delle pubbliche amministrazioni (IPA)
 - [Amministrazioni](amministrazioni.md)
 - [Aree Organizzative Omogenee](aoo.md)
 - [Unità organizzative](ou.md)

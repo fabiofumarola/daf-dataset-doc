@@ -5,6 +5,7 @@ Vedi anche: https://docs.google.com/spreadsheets/d/1nNsePzia1C0EuuauqII3JC1YHKIg
 
 - Amministrazioni centrali
     - [Agenzia delle Entrate](pac_agentrate)
+    - [Agenzia Italia Digitale (AgID)](pac_agid)
     - [Autorità Nazionale Anticorruzione (ANAC)](pac_anac)
     - [Ministero delle Infrastrutture e Trasporti (MIT)](pac_mit)
 
