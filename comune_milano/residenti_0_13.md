@@ -1,6 +1,7 @@
-# Comune di Milano: Asili nido
+# Comune di Milano: Residenti 0-13
 
 ## Descrizione del dataset
+Residenti per civico per classi d'età scolare
 
 **Tipo di dataset:** 
 
@@ -17,22 +18,12 @@
 
 | Nome | Tipo   | Descrizione                     |
 |------|--------|---------------------------------|
-| IDSTRUTTUR | Testo | identificativo univoco struttura |
-| SEDE | Numerico | identificativo univoco della sede |
-| NOMINATIVO | Testo | denominazione della struttura |
-| INDIRIZZO | Testo |  indirizzo completo (tipo via, via, civico) |
-| TIPO_STRUT | Testo | tipologia di gestione |
-| TELEFONO | Testo | numero telefonico |
-| MODALITA | Testo | modalità di erogazione del servizio (classi) |
-| CLASSEETA | Testo | tipologia di sezione per età |
-| UNITAEDUCA | Testo | denominazione dell'unità educativa |
-| DIREZIONET | Testo |  direzione educativa territoriale di appartenenza |
-| ZONA | Testo | zona (ora municipio) di appartenenza |
-| X | Numerico | coordinate WGS84 |
-| Y | Numerico | coordinate WGS84 |
-| CATEGORIA | Testo | categoria da PGT (vuoto) |
-| TIPOLOGIA | Testo | tipologia da PGT (vuoto) |
-| SOTTOTIPO | Testo | tipologia da PGT (vuoto) |
+|IDCIVICO|string|identificativo civico
+|_00_02|int|residenti per civico di età compresa fra 0 e 2 anni
+|_03_05|int|residenti per civico di età compresa fra 3 e 5 anni
+|_06_10|int|residenti per civico di età compresa fra 6 e 10 anni
+|_11_13|int|residenti per civico di età compresa fra 11 e 13 anni
+|13|int|residenti per civico di età compresa tra 14 e 18 anni
 
 ## Esempio del flusso
 
@@ -49,32 +40,21 @@
     {
       "type": "Feature",
       "properties": {
-        "IDSTRUTTUR": "39499",
-        "SEDE": 632,
-        "NOMINATIVO": "SS. TRINITA', 5 (MICRONIDO)",
-        "INDIRIZZO": "SS. TRINITA', 5 (MICRONIDO)",
-        "TIPO_STRUT": "APPALTATO",
-        "TELEFONO": "tel. D.D. 02/3494449 -",
-        "MODALITA": "MICRO NIDO",
-        "CLASSEETA": "MEDIO/GRANDI",
-        "UNITAEDUCA": "1A",
-        "DIREZIONET": "1",
-        "ZONA": "1",
-        "X": 1513886.42681,
-        "Y": 5036200.8567,
-        "CATEGORIA": null,
-        "TIPOLOGIA": null,
-        "SOTTOTIPO": null
+        "13": 2,
+        "IDCIVICO": "0001014",
+        "_00_02": 0,
+        "_03_05": 0,
+        "_06_10": 2,
+        "_11_13": 0
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1513886.42681,
-          5036200.8567
+          1514996.8485003,
+          5034477.716552178
         ]
       }
     },
-    
   ...]
 }
 ```
