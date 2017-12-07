@@ -18,32 +18,63 @@ Questo dataset contiene il parco circolante dei veicoli su strada (categorie Aut
 
 | Nome | Tipo   | Descrizione                     |
 |------|--------|---------------------------------|
-| progressivo | number | numero progressivo del veicolo come record nel dataset |
-| tipo veicolo | string | tipo di veicolo ( A = Autoveicolo , M = Motoveicolo) |
-| destinazione | string | destinazione del veicolo . Per destinazione del veicolo s'intende la sua utilizzazione in base alle caratteristiche tecniche.  (Per  A gli autoveicoli: AUTOVEICOLO IN SERVIZIO PUBBLICO DI LINEA INTEGRATIVO, AUTOVEICOLO USO ESCLUSIVO DI POLIZIA, AUTOVETTURA PER TRASPORTO DI PERSONE, AUTOBUS PER TRASPORTO DI PERSONE, AUTOCARRO PER TRASPORTO DI COSE, AUTOCARAVAN, AUTOVEICOLO PER USO SPECIALE, TRAS.SPECIFICO PERSONE PART.CONDIZIONI, AUTOVEIC.TRASP.PROMISCUO PERSONE/COSE,TRATTORE STRADALE PER RIMORCHIO,TRATTORE PER SEMIRIMORCHIO . Per M i Motoveicoli: QUADRICICLO PER TRASPORTO DI PERSONE, QUADRICICLO PER TRASPORTO DI COSE, QUADRICICLO PER USO SPECIALE, QUADRICICLO TRASPORTO SPECIFICO, MOTOVEICOLO USO ESCLUSIVO DI POLIZIA, TRICICLO PER TRASPORTO PROMISCUO, TRICICLO PER USO SPECIALE, TRICICLO PER TRASPORTO SPECIFICO, MOTOCICLO PER TRASPORTO PERSONE, TRICICLO PER TRASPORTO COSE, TRICICLO PER TRASPORTO DI PERSONE. |
-| uso | string | tipo d'uso del veicolo. Per uso del veicolo s'intende la sua utilizzazione economica. I veicoli possono essere adibiti a uso proprio o a uso di terzi. (Proprio, Di terzi da noleggio con conducente, di terzi da locare senza conducente, Di terzi, Di terzi con autorizzazione vincolate, Di terzi con autorizzazione libera, Uso speciale ) |
-| progressivo persona fisica | number | numero progressivo della persona fisica |
-| progressivo persona giuridica | number | numero progressivo della persona giuridica |
-| codice fiscale proprietario | string | codice fisca del proprietario se persona fisica |
-| Partita IVA | string | partita IVA del proprietario se persona giuridica |
-| comune residenza | string | comune dove risiede l'intestatario del veicolo |
-| provincia residenza | string | provincia dove risiede l'intestatario del veicolo |
-| età  intestatario | string | età dell'intestatario del veicolo alla data di produzione del dataset |
-| sesso | string | sesso dell'intestatario del veicolo |
-| marca | string | marca del veicolo |
-| cilindrata | string | cilindrata del veicolo misurata in centimetro cubo (cm3) .  |
-| alimentazione | string | alimentazione del motore del veicolo , ossia il tipo di combustibile (GASOLIO/METANO, GASOLIO/GPL, BENZINA, BENZINA/OLIO, BENZINA/WANK, ELETTRICA,GASOLIO, GPL, BENZINA/GPL, BENZINA/METANO, METANO, MISCELA,PETROLIO,IBRIDO BENZINA/ELETTRICO, IBRIDO GASOLIO/ELETTRICO, BENZINA/ETANOLO) |
-| data immatricolazione | string | data di immatricolazione del veicolo |
-| classe euro | string | classe ambientale di appartenenza (categoria Euro) di autoveicoli  (pre-Euro 1, Euro 1, Euro 2, Euro 3, Euro 4, Euro 5, Euro 6) e motoveicoli (pre-Euro 1, Euro 1, Euro 2, Euro 3) definita dalle direttive europee rispettate nell'anno di produzione e che Ã¨ riportata nel libretto di circolazione. |
-| emissioni co2 | string | emissione CO2 del veicolo misurate in g/km ossia grammi al chilometro. |
-| massa complessiva | string | massa complessiva del veicolo misurata attraverso il suo peso in chilogrammi (Kg). Si definisce massa complessiva la massa del veicolo in ordine di marcia (tara) piÃ¹ tutto il suo carico (portata). |
-| revisone in regola s/n | string | stato dell'obbligo di revisione del veicolo (S= SI , N=NO) ai fini della circolazione. |
-| assicurazione in regola s/n | string | stato dell'obbligo dell'assicurazione del veicolo (S= SI , N=NO) ai fini della circolazione."
-
+| PROGRESSIVO | number | numero progressivo del veicolo come record nel dataset |
+| TIPO_VEICOLO | string | tipo di veicolo ( A = Autoveicolo , M = Motoveicolo) |
+| DESTINAZIONE | string | destinazione del veicolo . Per destinazione del veicolo s'intende la sua utilizzazione in base alle caratteristiche tecniche.  (Per  A gli autoveicoli: AUTOVEICOLO IN SERVIZIO PUBBLICO DI LINEA INTEGRATIVO, AUTOVEICOLO USO ESCLUSIVO DI POLIZIA, AUTOVETTURA PER TRASPORTO DI PERSONE, AUTOBUS PER TRASPORTO DI PERSONE, AUTOCARRO PER TRASPORTO DI COSE, AUTOCARAVAN, AUTOVEICOLO PER USO SPECIALE, TRAS.SPECIFICO PERSONE PART.CONDIZIONI, AUTOVEIC.TRASP.PROMISCUO PERSONE/COSE,TRATTORE STRADALE PER RIMORCHIO,TRATTORE PER SEMIRIMORCHIO . Per M i Motoveicoli: QUADRICICLO PER TRASPORTO DI PERSONE, QUADRICICLO PER TRASPORTO DI COSE, QUADRICICLO PER USO SPECIALE, QUADRICICLO TRASPORTO SPECIFICO, MOTOVEICOLO USO ESCLUSIVO DI POLIZIA, TRICICLO PER TRASPORTO PROMISCUO, TRICICLO PER USO SPECIALE, TRICICLO PER TRASPORTO SPECIFICO, MOTOCICLO PER TRASPORTO PERSONE, TRICICLO PER TRASPORTO COSE, TRICICLO PER TRASPORTO DI PERSONE. |
+| USO | string | tipo d'uso del veicolo. Per uso del veicolo s'intende la sua utilizzazione economica. I veicoli possono essere adibiti a uso proprio o a uso di terzi. (Proprio, Di terzi da noleggio con conducente, di terzi da locare senza conducente, Di terzi, Di terzi con autorizzazione vincolate, Di terzi con autorizzazione libera, Uso speciale ) |
+| PROGRESSIVO_PF | number | numero progressivo della persona fisica |
+| PROGRESSIVO_PG | number | numero progressivo della persona giuridica |
+| CODICE_FISCALE | string | codice fisca del proprietario se persona fisica |
+| PARTITA_IVA | string | partita IVA del proprietario se persona giuridica |
+| COMUNE_RESIDENZA | string | comune dove risiede l'intestatario del veicolo |
+| PROVINCIA_RESIDENZA | string | provincia dove risiede l'intestatario del veicolo |
+| ETA | string | età dell'intestatario del veicolo alla data di produzione del dataset |
+| SESSO | string | sesso dell'intestatario del veicolo |
+| MARCA | string | marca del veicolo |
+| CILINDRATA | string | cilindrata del veicolo misurata in centimetro cubo (cm3) .  |
+| ALIMENTAZIONE | string | alimentazione del motore del veicolo , ossia il tipo di combustibile (GASOLIO/METANO, GASOLIO/GPL, BENZINA, BENZINA/OLIO, BENZINA/WANK, ELETTRICA,GASOLIO, GPL, BENZINA/GPL, BENZINA/METANO, METANO, MISCELA,PETROLIO,IBRIDO BENZINA/ELETTRICO, IBRIDO GASOLIO/ELETTRICO, BENZINA/ETANOLO) |
+| DATA_PRIMA_IMMATRICOLAZIONE | string | data di immatricolazione del veicolo |
+| SIGLA_EURO | string | classe ambientale di appartenenza (categoria Euro) di autoveicoli  (pre-Euro 1, Euro 1, Euro 2, Euro 3, Euro 4, Euro 5, Euro 6) e motoveicoli (pre-Euro 1, Euro 1, Euro 2, Euro 3) definita dalle direttive europee rispettate nell'anno di produzione e che è riportata nel libretto di circolazione. |
+| EMISSIONI_CO2 | string | emissione CO2 del veicolo misurate in g/km ossia grammi al chilometro. |
+| MASSA | string | massa complessiva del veicolo misurata attraverso il suo peso in chilogrammi (Kg). Si definisce massa complessiva la massa del veicolo in ordine di marcia (tara) piÃ¹ tutto il suo carico (portata). |
+| IN_REGOLA_REVISIONE | string | stato dell'obbligo di revisione del veicolo (S= SI , N=NO) ai fini della circolazione. |
+| IN_REGOLA_ASSICURAZIONE | string | stato dell'obbligo dell'assicurazione del veicolo (S= SI , N=NO) ai fini della circolazione."
+| REGIONE_UFFCIO_IMMATRICOLAZIONE| | |
+| PROVENIENZA_VEICOLO | | |
+| DATA_ULTIMA_REVISIONE | | |
+| ESITO_ULTIMA_REVISIONE | | |
+| DATA_PROSSIMA_REVISIONE | | |
+| TARGATURA_PRECEDENTE| | |
+| MODELLO_VEICOLO | | |
+| DATA_ISTALLAZ_GPL_METANO | | |
+| DATA_FINE_ASSICURAZIONE | | |
+| TARGA | | |
+| POTENZA_KW | | |
 
 ## Esempio del flusso
 
 ```
+"PROGRESSIVO","TIPO_VEICOLO","DESTINAZIONE","USO","PROGRESSIVO_PF","PROGRESSIVO_PG","CODICE_FISCALE","PARTITA_IVA","COMUNE_RESIDENZA","PROVINCIA_RESIDENZA","ETA","SESSO","MARCA","CILINDRATA","ALIMENTAZIONE","DATA_PRIMA_IMMATRICOLAZIONE","SIGLA_EURO","EMISSIONI_CO2","MASSA","IN_REGOLA_REVISIONE","IN_REGOLA_ASSICURAZIONE","REGIONE_UFFICIO_IMMATRICOLAZIONE","PROVENIENZA_VEICOLO","DATA_ULTIMA_REVISIONE","ESITO_ULTIMA_REVISIONE","DATA_PROSSIMA_REVISIONE","TARGATURA_PRECEDENTE","MODELLO_VEICOLO","DATA_ISTALLAZ_GPL_METANO","DATA_FINE_ASSICURAZIONE","TARGA","POTENZA_KW"
+1,"A","AUTOVETTURA PER TRASPORTO DI PERSONE","PROPRIO",45274415,,"GRRGTN47R04M100P",,"VIZZINI","CATANIA",70,"M","FIAT - INNOCENTI",1108.00,"BENZ","29/03/1999","2",148,1200,"N","S","SICILIA","ESTERA","05/10/2011","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","31/10/2013",,,,"29/01/2018","BC698PF ",40
+2,"A","AUTOVETTURA PER TRASPORTO DI PERSONE","PROPRIO",45528929,,"GLNSVT81D09I535W",,"SCICLI","RAGUSA",36,"M","FIAT - INNOCENTI",1242.00,"BENZ","21/03/2003","3",142,1445,"S","S","SICILIA","ITALIANA","05/05/2017","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","31/05/2019",,,,"01/05/2018","CE371LA ",59
+3,"A","AUTOVETTURA PER TRASPORTO DI PERSONE","PROPRIO",56610054,,"LFTCST74P20Z129B",,"COMISO","RAGUSA",43,"M","CITROEN",1124.00,"BENZ","31/07/2002","3",145,1310,"S","S","SICILIA","ITALIANA","10/12/2016","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","31/12/2018",,,,"16/08/2018","CA952NE ",44
+4,"A","AUTOVETTURA PER TRASPORTO DI PERSONE","PROPRIO",3379235,,"VVLGDU67L11A145I",,"BOVOLONE","VERONA",50,"M","ALFA ROMEO",1910.00,"GASOL","02/04/2003","3",157,1805,"S","S","VENETO","ITALIANA","26/05/2017","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","31/05/2019",,,,"15/04/2018","CF358VP ",103
+5,"A","AUTOVETTURA PER TRASPORTO DI PERSONE","PROPRIO",5324348,,"CGLMRT37P16E507R",,"LECCO","LECCO",80,"M","HONDA",2354.00,"BENZ","28/03/2003","4",223,1920,"S","S","VENETO","ITALIANA","25/07/2017","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","31/07/2019",,,,"22/12/2017","CF450VP ",140
+6,"A","AUTOVETTURA PER TRASPORTO DI PERSONE","PROPRIO",38573995,,,,"CANCELLARA","POTENZA",96,,"FIAT - INNOCENTI",999.00,"BENZ","22/03/1991","0",,1190,"N","N","BASILICATA","ITALIANA","12/10/2007","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","31/10/2009",,,,,"PZ301179",37
+7,"A","AUTOVETTURA PER TRASPORTO DI PERSONE","PROPRIO",50892097,,"PLCRSO49D45H307F",,"RIONERO IN VULTURE","POTENZA",68,"F","FIAT - INNOCENTI",999.00,"BENZ","22/03/1991","0",,1190,"S","S","BASILICATA","ITALIANA","28/07/2016","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","31/07/2018",,,,"05/12/2017","PZ301126",33
+8,"A","AUTOVEICOLO PER TRASPORTO SPECIFICO","PROPRIO",,6032472,,"00545970766","PALAZZO SAN GERVASIO","POTENZA",,,"ASTRA VEICOLI INDUSTRIALI",13798.00,"GASOL","01/01/1990","0",,24000,"S","S","BASILICATA","ITALIANA","24/03/2017","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","31/03/2018",,,,"15/12/2017","PZ287280",191
+9,"A","AUTOVETTURA PER TRASPORTO DI PERSONE","PROPRIO",21073322,,"SCPPRZ51M52F520Y",,"MONTEGIORGIO","FERMO",66,"F","LANCIA - AUTOBIANCHI",1108.00,"BENZ","28/04/1995","2",,1220,"S","S","MARCHE","ITALIANA","22/02/2017","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","28/02/2019",,,,"08/02/2018","AE974DN ",40
+10,"A","AUTOVETTURA PER TRASPORTO DI PERSONE","PROPRIO",28956203,,"DNFGUO79T27G596P",,"BAIA E LATINA","CASERTA",37,"M","FIAT - INNOCENTI",1698.00,"GASOL","17/03/1999","2",,1510,"N","N","UMBRIA","ITALIANA","28/05/2013","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","31/05/2015",,,,"10/10/2013","BC249PY ",46
+11,"A","AUTOVETTURA PER TRASPORTO DI PERSONE","PROPRIO",27429295,,"GRGMRK80A13H501V",,"ROMA","ROMA",37,"M","ALFA ROMEO",2959.00,"BENZ","16/03/1999","2",296,2020,"N","N","UMBRIA","ITALIANA","18/11/2011","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","30/11/2013",,,,,"BC245PY ",166
+12,"A","AUTOVETTURA PER TRASPORTO DI PERSONE","PROPRIO",44323642,,"LSRGNN57D11A026L",,"ACI CASTELLO","CATANIA",60,"M","FIAT - INNOCENTI",1108.00,"BENZ","30/01/1997","2",,1200,"S","S","VENETO","ITALIANA","26/11/2016","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","30/11/2018",,,,"14/12/2017","AM839WA ",40
+13,"M","MOTOCICLO PER TRASPORTO PERSONE","PROPRIO",45470335,,"GLLMHL67D20H163S",,"POZZALLO","RAGUSA",50,"M","HONDA",600.00,"BENZ","31/03/2003","2",,390,"N","N","SICILIA","ITALIANA","31/07/2010","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","31/07/2012",,,,,"BT33645 ",71
+14,"A","AUTOVETTURA PER TRASPORTO DI PERSONE","PROPRIO",25232159,,"PRLGZN82A18C773L",,"TARQUINIA","VITERBO",35,"M","FIAT - INNOCENTI",1108.00,"BENZ","21/03/2003","3",141,1150,"S","N","LAZIO","ITALIANA","29/01/2016","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","31/01/2018",,,,"11/06/2016","CG602FT ",40
+15,"A","AUTOVETTURA PER TRASPORTO DI PERSONE","PROPRIO",28905583,,"DFRMRA38P11F203Y",,"ROMA","ROMA",79,"M","FIAT - INNOCENTI",1108.00,"BENZ","24/03/2003","3",141,1150,"S","S","LAZIO","ITALIANA","10/05/2017","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","31/05/2019",,,,"16/06/2018","CG603FT ",40
+16,"M","MOTOCICLO PER TRASPORTO PERSONE","PROPRIO",33620915,,"CNQLRA80P53A515A",,"AVEZZANO","L'AQUILA",37,"F","SUZUKI",385.00,"BENZ","02/04/1999","1",,390,"S","N","LAZIO","ESTERA","01/08/2017","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","31/08/2019",,,,"04/11/2017","AE60966 ",24
+17,"A","AUTOVETTURA PER TRASPORTO DI PERSONE","PROPRIO",26687127,,"MRLFBA64P15H501W",,"CERVETERI","ROMA",53,"M","MITSUBISHI",2477.00,"GASOL","19/02/1999","2",,2750,"N","N","LAZIO","ESTERA","03/09/2007","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","30/09/2009",,,,,"ZA115FX ",73
+18,"A","AUTOVEIC.TRASP.PROMISCUO PERSONE/COSE","PROPRIO",,6033516,,,"PIETRAGALLA","POTENZA",,,"FORD",2496.00,"GASOL","04/11/1993","1",,3500,"N","N","BASILICATA","ESTERA","29/06/2013","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.",,,,,"08/01/2015","PZ341029",74
+19,"M","MOTOCICLO PER TRASPORTO PERSONE","PROPRIO",58716595,,"WRNRHT85C19Z209G",,"PERO","MILANO",32,"M","YAMAHA",124.00,"BENZ","04/09/2001","1",,290,"N","N","LOMBARDIA","ESTERA","06/10/2010","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","31/10/2012",,,,,"BF20324 ",8
+20,"A","AUTOCARAVAN","PROPRIO",520777,,"MLNLSN78P04H355Y",,"TRANA","TORINO",39,"M",,2175.00,"GASOL","01/01/1980","0",,18000,"N","N","PIEMONTE","ITALIANA","13/12/2005","REVISIONE EFFETTUATA CON ESITO *REGOLARE*.","31/12/2007",,,,,"TOU96139",46
 
 ```
 
