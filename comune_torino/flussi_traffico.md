@@ -19,20 +19,20 @@ Conteggio dei veicoli transitanti alle sezioni di misura dell’area urbana di T
 
 ### traffic_data
 
-### traffic_data >> location_reference
-
 Attributi:
 - *datatype*: misura / previsione / profilo
 - *generation_time*: istante di generazione del feed
-- *start_time*: istante di inizio periodo cui sono riferiti i dati
-- *end_time*: istante di fine periodo cui sono riferiti i dati
-- *source*: identificativo del fornitore dei dati
+- *start_time*: istante di inizio del periodo di aggregazione, in formato standard ISO 8601
+- *end_time*: istante di fine del periodo di aggregazione, in formato standard ISO 8601
+- *source*: identificativo della fonte dei dati
+
+### traffic_data >> location_reference
 
 ### traffic_data >> FDT_data
 Flussi di traffico lungo un arco TMC o attraverso una sezione di misura. Il nodo LCD è quello di inizio dell'arco interessato, nella direzione di percorrenza specificata.
 
 Attributi:
-- *source*: identificativo della sorgente/fornitore dei dati
+- *source*: identificativo della fonte dei dati
 - *station_id*: identificativo della stazione di misura (se disponibile)
 - *diagnostic*: stato diagnostico del dispositivo
 - *lcd1*: Codifica TMC del nodo iniziale dell’arco
@@ -53,10 +53,10 @@ Attributi:
 Dati di flusso e velocità rilevati da una sezione, per tipologia di veicolo
 
 Attributi:
-- VehicleType: Tipologia di veicolo cui si riferisce il conteggio (all, light, heavy)
-- flow: Flusso veicolare (veicoli/ora)
-- speed: Velocità media (Km/h)
-- harmspeed: Velocità media armonica (Km/h)
+- *VehicleType*: Tipologia di veicolo cui si riferisce il conteggio (all, light, heavy)
+- *flow*: Flusso veicolare (veicoli/ora)
+- *speed*: Velocità media (Km/h)
+- *harmspeed*: Velocità media armonica (Km/h)
 
 
 ## Esempio del flusso
