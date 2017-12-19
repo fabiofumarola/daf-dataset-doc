@@ -21,9 +21,9 @@
 | ID | long | |
 | FEATTYP | | |
 | FT | | |
-| F_JNCTID | | |
+| F_JNCTID | | nodo iniziale di un tronco stradale |
 | F_JNCTTYP | | |
-| T_JNCTID | | |
+| T_JNCTID | | nodo finale di un tronco stradale |
 | T_JNCTTYP | | |
 | PJ | | |
 | METERS | | |
