@@ -7,7 +7,7 @@
 
 **Tipo di flusso:** batch
 
-**Tipo di file:** CSV/JSON
+**Tipo di file:** JSON
 
 **Scheda:** 
 
@@ -33,12 +33,45 @@
 | valido_al | date | |
 | c_data_aggiornamento | date | |
 
-
-
-
 ## Esempio del flusso
 
 ```
-
+[
+  {
+    "id": 14,
+    "paid": 8,
+    "c_data_aggiornamento": "2016-06-30",
+    "f1_c_valore_f2_m_num_tot": 31168,
+    "f1_c_num_tot": 1575211,
+    "f2_c_valore": 7435,
+    "f2_c_num_tot": 12163,
+    "trimestre": 1,
+    "anno": 2016,
+    "valido_al": "2016-06-30",
+    "f1_m_valore": 124,
+    "f1_m_num_tot": 1328,
+    "f2_m_valore": 5000,
+    "m_data_aggiornamento": "2016-06-30",
+    "pa": "Regione Liguria"
+  },
+  {
+    "id": 15,
+    "paid": 2,
+    "c_data_aggiornamento": "2016-06-30",
+    "f1_c_valore_f2_m_num_tot": 40,
+    "f1_c_num_tot": 576619,
+    "f2_c_valore": null,
+    "f2_c_num_tot": null,
+    "trimestre": 1,
+    "anno": 2016,
+    "valido_al": "2016-06-30",
+    "f1_m_valore": 10,
+    "f1_m_num_tot": 477,
+    "f2_m_valore": null,
+    "m_data_aggiornamento": "2016-06-30",
+    "pa": "Regione Basilicata"
+  },
+  ...
+]
 ```
 
