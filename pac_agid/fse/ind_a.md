@@ -13,6 +13,8 @@
 
 **Modalità di ingestion su DAF:** scarico su SFTP
 
+**Note**: per ora questi sono dati di test
+
 
 ## Elementi
 | Nome | Tipo   | Descrizione                     |
