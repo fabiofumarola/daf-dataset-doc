@@ -44,9 +44,19 @@
             
             // social media ontology
             "onlineContactPoint": {
-                "emailAddress": "",
+                "emailAddresses": [
+                    {
+                        "email": "",
+                        "emailType": "" // channel controlled vocabulary: 041 (PEC) e 042 (email)
+                    }
+                ],
                 "webSite": "",
-                "socialMediaName": ""
+                "socialMediaAccounts": [
+                    {
+                        "socialMedia": "",
+                        "accountName": ""
+                    }
+                ]
             },
             
             // time ontology
