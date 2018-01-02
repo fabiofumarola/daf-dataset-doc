@@ -1,0 +1,118 @@
+/* 
+ * per i nomi e le descrizioni si utilizzano mappe le cui proprietà opzionali sono i codice lingue
+ * secondo lo standard ISO 693-3:2007, in aggiunta alla proprietà obbligatoria "def" (default)
+ * ita - italiano
+ * eng - ladino
+ * fra - francese
+ * deu - tedesco
+ * spa - spagnolo
+ * lad - ladino
+ */
+
+{
+    "metadata": {
+        "refDate": "2017-12-21T14:05:04",
+        "version": "",
+        "elements": 17827
+    },
+    "accomodationFacilities": [
+        {
+            // proprietà da point of interest
+            "name": "",
+            "description": {"def": "", "ita": ""},
+            "identifier": "",
+
+            // da address ontology
+            "address": {
+                "fulladdress": "",
+                "country": "",
+                "region": "",
+                "province": "",
+                "city": "",
+                "addressArea": "",
+                "postalCode": "",
+                "street": "",
+                "streetNumber": {
+                    "civico": "",
+                    "metric": "",
+                    "peculiarity": ""
+                },
+                "internalAddressNumber": {
+                    "staircase": "",
+                    "flatNumber": "",
+                    "building": "",
+                    "floor": "",
+                    "yard": ""
+                },
+                "location": {
+                    "validity": "",
+                    "modified": "",
+                    "identifier": {
+                        "identifierType": "",
+                        "issuedBy": "",
+                        "identifier": ""
+                    },
+                    "geometry": {
+                        "lat": "",
+                        "long": "",
+                        "alt": "",
+                        "geographicPositionMethod": "Satellite data georeferentiation",
+                        "geometryType": "Point",
+                        "ref_system": "WGS84" // non presente nell'ontologia
+                    }
+                }
+            },
+
+            "accomodationCode": "",
+            "totalRooms": "",
+            "totalBeds": "",
+            "totalToilets": "",
+            "owner": "", // organization
+            "offer": "",
+            "offeredServiceDescription": { // ??
+                "minValue": "",
+                "maxValue": "",
+                "genericValue": "",
+                "totalValue": ""
+            },
+            "accomodationRooms": [
+                {
+                    "roomName": "",
+                    "offer": "",
+                    "offeredServiceDescription": { // ??
+                        "minValue": "",
+                        "maxValue": "",
+                        "genericValue": "",
+                        "totalValue": ""
+                    },
+                    "type": "" // bedroom (double, quadruple, single, suite, triple), meetingroom
+                }
+            ],
+            "checkin": "",
+            "checkout": "",
+            "includedInAccomodation": "",
+            "accomodationTipology": "", // vocabolario controllato
+            "accomodationClassification": {
+                "accomodationStarRatingLabel": "",
+                "accomodationStarRatingID": ""
+            },
+
+            // social media ontology
+            "onlineContactPoint": {
+                "emailAddresses": [
+                    {
+                        "email": "",
+                        "emailType": "" // channel controlled vocabulary: 041 (PEC) e 042 (email)
+                    }
+                ],
+                "webSite": "",
+                "socialMediaAccounts": [
+                    {
+                        "socialMedia": "",
+                        "accountName": ""
+                    }
+                ]
+            }
+        }
+    ]
+}
