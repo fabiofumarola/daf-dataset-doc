@@ -1,0 +1,71 @@
+/* 
+ * per i nomi e le descrizioni si utilizzano mappe le cui proprietà opzionali sono i codice lingue
+ * secondo lo standard ISO 693-3:2007, in aggiunta alla proprietà obbligatoria "def" (default)
+ * ita - italiano
+ * eng - ladino
+ * fra - francese
+ * deu - tedesco
+ * spa - spagnolo
+ * lad - ladino
+ */
+
+{
+    "metadata": {
+        "refDate": "2017-12-21T14:05:04",
+        "version": "",
+        "elements": 17827
+    },
+    "publicEvents": [
+        {
+            "identifier": "",
+            "name": {"def": "", "ita": "", "eng": ""},
+            "description": {"def": "", "ita": "", "eng": ""},
+            "publicEventTypology": "", // vocabolario controllato
+            
+            "offers": [ // verificare con GL
+                {
+                    "eligibleUser": {
+                        "name": "Under 18",
+                        "description": {"def": "Persone con età inferiore ai 18 anni", "ita": "Persone con età inferiore ai 18 anni"}
+                    },
+                    "priceSpecification": {
+                        "currencyValue": "5",
+                        "currency": "EUR" // vocabolario controllato o codici da ISO 4217
+                    },
+                    "validity": "",
+                    "description": {"def": "offerta base per minorenni", "ita": "offerta base per minorenni"}
+                }
+            ],
+            
+            "subEventOf": "",
+            "subEvents": [""],
+            
+            "takesPlaceIn": "", // id punto di interesse?
+            
+            // social media ontology
+            "onlineContactPoint": {
+                "emailAddress": "",
+                "webSite": "",
+                "socialMediaName": ""
+            },
+            
+            // time ontology
+            "atTime": [
+                {
+                    "startTime": "",
+                    "endTime": ""
+                }
+            ],
+            
+            // da lasciare?
+            "rolesInTime": [
+                {
+                    "role": "Direttore",
+                    "name": "Andrea De Pasquale",
+                    "startDate": "2013-01-01",
+                    "endDate": "2016-12-31"
+                }
+            ]
+        }
+    ]
+}
